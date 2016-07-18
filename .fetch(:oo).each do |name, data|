@@ -1,0 +1,28 @@
+
+[1mFrom:[0m /home/tami/code/labs/programming_languages-web-0716/programming_languages.rb @ line 6 Object#reformat_languages:
+
+     [1;34m3[0m: [32mdef[0m [1;34mreformat_languages[0m(languages)
+     [1;34m4[0m:   new_hash = {}
+     [1;34m5[0m: 
+ =>  [1;34m6[0m:   binding.pry
+     [1;34m7[0m: 
+     [1;34m8[0m: 
+     [1;34m9[0m: 
+    [1;34m10[0m:   languages.fetch([33m:oo[0m).each [32mdo[0m |name, data|
+    [1;34m11[0m:   	new_hash[name][[33m:style[0m] = [33m:oo[0m
+    [1;34m12[0m:   [32mend[0m
+    [1;34m13[0m: 
+    [1;34m14[0m: 
+    [1;34m15[0m:   languages.each [32mdo[0m |style, data|
+    [1;34m16[0m:   	data.each [32mdo[0m |name, categories|
+    [1;34m17[0m:   		languages[style][name][[33m:style[0m] = style
+    [1;34m18[0m:   		categories.each [32mdo[0m |categories, type|
+    [1;34m19[0m:   			new_hash[name] = {[33m:type[0m => [31m[1;31m"[0m[31m#{type}[0m[31m[1;31m"[0m[31m[0m, [33m:style[0m => [style]}
+    [1;34m20[0m:   		[32mend[0m
+    [1;34m21[0m:   	[32mend[0m
+    [1;34m22[0m: 	[32mend[0m
+    [1;34m23[0m: 
+    [1;34m24[0m:   binding.pry
+    [1;34m25[0m:   new_hash
+    [1;34m26[0m: [32mend[0m
+
